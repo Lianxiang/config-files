@@ -57,3 +57,15 @@ Install Arch Linux
   - https://wiki.archlinux.org/index.php/Beginners%27_Guide
   - If you are using an Intel video chipset and the screen goes blank during the boot process, the problem is likely an issue with Kernel mode setting. A possible workaround may be achieved by rebooting and pressing e over the entry that you are trying to boot (i686 or x86_64). At the end of the string type nomodeset and press Enter. Alternatively, try video=SVIDEO-1:d which, if it works, will not disable kernel mode setting. You can also try i915.modeset=0. See the Intel article for more information. 
   - https://wiki.archlinux.org/index.php/Intel_Graphics
+  - https://wiki.archlinux.org/index.php/Xorg
+  - 就上面几个相关的网页。
+  - 在文件 /boot/grub/grub.cfg 启动行加入 i915.modeset=0
+
+* 装X
+  - pacman -S xorg-server xorg-server-utils xorg-xinit
+  - pacman -S xf86-video-intel
+  - pacman -S xf86-input-synaptics
+  - pacman -S xf86-input-evdev
+  - pacman -S xorg-twm xorg-xclock xterm
+  - 下面这个没装，半天X起不来，看og才知道
+  - pacman -S xf86-video-vesa
