@@ -55,6 +55,11 @@ Install Arch Linux
   - pacman -S firefox
   - pacman -S fcitx thunar conky rtorrent mplayer smplayer vim gedit scrot gnome-screenshot evince mirage gimp gnome-terminal
 
+* sound
+  - https://wiki.archlinux.org/index.php/Alsa
+  - pacman -S alsa-utils
+  - alsamixer
+
 * 各种配置
   - .xinitrc
   - .fvwm
