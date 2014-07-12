@@ -53,9 +53,13 @@ Install Arch Linux
 
 * 装软件
   - pacman -S firefox
-  - pacman -S fcitx thunar conky vim rtorrent mplayer smplayer scrot evince mirage gimp gnome-screenshot gedit gnome-terminal
+  - pacman -S fcitx thunar conky rtorrent mplayer smplayer vim gedit scrot gnome-screenshot evince mirage gimp gnome-terminal
 
 * 各种配置
   - .xinitrc
   - .fvwm
   - .conkyrc
+  - .bashrc
+  - .vimrc
+  - xterm configs
+  - gnome-terminal 在窗口中配置
