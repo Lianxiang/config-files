@@ -69,3 +69,14 @@ Install Arch Linux
   - pacman -S xorg-twm xorg-xclock xterm
   - 下面这个没装，半天X起不来，看og才知道
   - pacman -S xf86-video-vesa
+
+* 装fvwm
+  - pacman -S fvwm
+  - pacman -S ttf-dejavu
+  - pacman -S wqy-microhei-lite
+  - pacman -S conky
+
+* 各种配置
+  - .xinitrc
+  - .fvwm
+  - .conkyrc
