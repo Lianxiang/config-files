@@ -60,6 +60,9 @@ Install Arch Linux
   - pacman -S alsa-utils
   - alsamixer
 
+* 笔记本相关
+  - https://wiki.archlinux.org/index.php/Laptop_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
 * 各种配置
   - .xinitrc
   - .fvwm
