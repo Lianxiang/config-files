@@ -44,7 +44,7 @@ Install Arch Linux
 
 * 装X
   - pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xorg-xclock xterm
-  - pacman -S xf86-video-intel xf86-video-vesa
+  - pacman -S xf86-video-vesa
   - pacman -S xf86-input-synaptics xf86-input-evdev
 
 * 装fvwm及字体
