@@ -71,3 +71,13 @@ Install Arch Linux
   - .vimrc
   - xterm configs
   - gnome-terminal 在窗口中配置
+
+* 遗留问题
+  - suspend不能唤醒问题
+    * 看现象，怀疑是显卡问题，可以通过下列步骤来规避
+      - common user login
+      - startx
+      - su
+      - pm-suspend
+      - exit su
+      - ok
