@@ -1,0 +1,13 @@
+0)~$ find .vim
+.vim
+.vim/.netrwhist
+.vim/doc
+.vim/doc/winmanager.txt
+.vim/doc/taglist.txt
+.vim/doc/tags
+.vim/plugin
+.vim/plugin/minibufexpl.vim
+.vim/plugin/wintagexplorer.vim
+.vim/plugin/winmanager.vim
+.vim/plugin/taglist.vim
+.vim/plugin/winfileexplorer.vim
